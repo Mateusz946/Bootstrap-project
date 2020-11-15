@@ -1,0 +1,55 @@
+
+.carousel-inner .carousel-item{
+    height: 100vh;
+}
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-inner .carousel-item .carousel-caption {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: auto;
+    bottom: auto; 
+}
+.carousel-inner .carousel-item .carousel-caption h3{
+      font-size: 70px; 
+}
+.card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    opacity: 80%;
+}
+.w-100{
+    opacity: 70%;
+}
+h4{
+    color: rgb(26, 41, 47);
+    text-transform: uppercase;
+}
+h3{
+    color: rgb(52, 55, 58);
+}
+.card h1{
+    color: slategray;
+}
+.contact .card {
+    background: #eff2f5;
+    border: 0; 
+}
+.contact .card ul {
+    padding-inline-start: 0; 
+}
+.contact .card ul li {
+    display: inline;
+    margin: 0 10px 0 0; 
+}
+.contact .card ul li i {
+    font-size: 16px;
+    color: black; 
+}
+.footer .container{
+    background: #b8b0b0; 
+}
